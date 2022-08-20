@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100;1,400&display=swap');
+/* Image by <a href="https://pixabay.com/users/kinkate-4384506/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2031539">kinkate</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2031539">Pixabay</a> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #213857;
+  padding: 50px 200px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9fef8;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9fef8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.hero {
+    display: flex;
+    gap: 50px;
+    padding: 80px 0;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    margin-top: 40px;
+    background-color: #3882F6;
+    color: #f9fef8;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.random,
+.quote {
+    padding: 80px 300px;
+}
+
+.random h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    height: 280px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+figcaption {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.cta {
+    margin: 100px 200px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    color: #f9fef8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.cta-btn {
+    background-color: transparent;
+    color: #f9fef8;
+    border: 1px solid #f9fef8;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #213857;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 35px 0;
+}
